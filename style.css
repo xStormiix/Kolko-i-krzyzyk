@@ -1,0 +1,68 @@
+body {
+  background-color: #0f0f0f;
+  color: white;
+  align-items: center;
+  text-align: center;
+  font-family: cursive;
+  font-size: 4vmin
+}
+
+#content {
+  font-size: 0;
+  margin-top: 5vh;
+}
+
+
+.inline {
+  display: inline-block;
+  width: calc(100vw/3.7);
+  height: calc(100vh/4.5);
+  line-height: calc(100vh/4.5);
+  min-width: 100px;
+  min-height: 100px;
+  vertical-align: bottom;
+  font-size: 20vmin;
+  cursor: pointer;
+}
+
+.inline:hover {
+  background-color: #1a1919;
+}
+
+#pole1 {
+  border-radius: 20px 0 0 0;
+}
+
+#pole3 {
+  border-radius: 0 20px 0 0;
+}
+
+#pole7 {
+  border-radius: 0 0 0 20px;
+}
+
+#pole9 {
+  border-radius: 0 0 20px 0;
+}
+
+#pole4, #pole5, #pole6 {
+  border-top-color: white;
+  border-top-width: 1vh;
+  border-top-style: solid;
+  border-bottom-color: white;
+  border-bottom-width: 1vh;
+  border-bottom-style: solid;
+}
+
+#pole2, #pole5, #pole8 {
+  border-left-color: white;
+  border-left-width: 1vh;
+  border-left-style: solid;
+  border-right-color: white;
+  border-right-width: 1vh;
+  border-right-style: solid;
+}
+
+.wygrana {
+  color: green;
+}
